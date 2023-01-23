@@ -1,0 +1,117 @@
+.detailBox{
+    position: absolute;
+    width: 60%;
+    background-color: white;
+}
+.detailNavbar{
+    background-color: black;
+}
+.detailNavbar a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.detailContent1{
+    padding: 10px 15px;
+    display: none;
+    box-sizing: border-box;
+    background-color: white;
+}
+.detailContent1 input{
+    width: 100%;
+    margin-top: 2px;
+    box-sizing: border-box;
+    padding: 12px 15px;
+}
+.detailContent1 input:focus{
+    outline: 1px solid;
+}
+.detailContent1 p{
+    padding: 10px 0px;
+    font-size: 22px;
+    background-color: white;
+}
+.detailContent1 button{
+    margin: 15px 0px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+.detailContent1 button:hover{
+    background-color: #ddd;
+    color: black;
+}
+.detailContent2{
+    padding: 15px 15px;
+    display: none;
+    background-color: white;
+}
+.detailContent3{
+    /* display: none; */
+    padding: 15px 15px;
+}
+.detailContentBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 49%;
+    box-sizing:border-box;
+}
+.detailContent2 p:first-child{
+    font-size: 24px;
+    padding: 10px 0px;
+}
+.detailContent1,.detailContent2,.detailContent3 p{
+    background-color: white;
+}
+.detailContent3 p:first-child{
+    font-size: 24px;
+    padding: 15px 0px;
+}
+.detailContent3 input{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.detailContent3 input:focus{
+    outline: 1px solid;
+}
+.detailContent2 p{
+    padding: 10px 0px;
+    background-color: white;
+}
+.detailContent2 button{
+    padding: 12px 15px;
+    border: none;
+    margin: 5px 0px;
+    background-color: #333;
+    color: white;
+}
+.detailContent2 button:hover{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+.detailContent3 button{
+    padding: 12px 15px;
+    border: none;
+    margin: 5px 0px;
+    background-color: #333;
+    color:white;
+}
+.detailContent3 button:hover{
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+}
+.detailContent3 span{
+    background-color: brown;
+    padding: 1px 5px;
+    color: white;
+}

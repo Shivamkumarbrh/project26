@@ -1,0 +1,56 @@
+
+@media screen and (max-width:1110px) {
+    .mainImg{
+        padding: 0px;
+    }
+    .mainImg img{
+        width: 100%;
+        object-fit: cover;
+        height:calc( 100vh - 224px);
+    }
+    .goodOffer{
+        width: 100%;
+    }
+    .goodOffer50{
+        width: 50%;
+    }
+    .goodOffer25{
+        width: 50%;
+    }
+    .exploreNature{
+        width: 100%;
+    }
+    .offerfirst{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .mainImg{
+        display: none;
+    }
+    .goodOffer50{
+        width: 98%;
+    }
+    .goodOffer25{
+        margin: 0px auto;
+        width: 98%;
+    }
+    .goodOffer25 img{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .exploreNature{
+        margin: 15px auto;
+    }
+    .exNatureContainer{
+        width: 98%;
+        margin: 0px auto;
+        margin-bottom:10px;
+    }
+    .contact{
+        padding: 0px 10px;
+    }
+}
